@@ -4,7 +4,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const admin = require('firebase-admin');
 const serviceAccount = require('./ServiceAccountKey.json');
-const pdf = require('html-pdf'); // Add this line to import the html-pdf library
+const pdf = require('html-pdf');
 const fs = require('fs');
 
 // Initialize Firebase Admin SDK
